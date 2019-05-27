@@ -43,7 +43,7 @@
           <input type="password" placeholder="Contraseña" name="">
         </div>
 
-        <button type="submit" class="button">Ingresar</button>
+        <a href="{{ url_for('static',filename='mapa.html') }}" class="button">Ingresar</a>
       </div>
 
     </header>
@@ -63,7 +63,7 @@
             </button>
           </fieldset>
         </form>
-        <a href="http://www" class="btn">Soy nuevo</a>
+        <a href="{{ url_for('static',filename='login.html') }}" class="btn">Soy nuevo</a>
       </div>
     </div>
     <div class="social">
